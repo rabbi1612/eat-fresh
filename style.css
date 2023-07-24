@@ -1,0 +1,90 @@
+body{
+    font-family: 'Manrope', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-weight: 800;
+    font-size: 30px;
+}
+.highlight{
+    color: orangered;
+}
+button{
+    background-image: linear-gradient(45deg, orange, orangered);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: antiquewhite;
+    font-weight: 700;
+}
+.half-width{
+    width: 40%;
+    padding-left: 4%;
+    margin-left: 2px;
+    
+}
+.half-width img{
+    width: 100%;
+}
+.top{
+    display: flex;
+  
+}
+.middel{
+    display: flex;
+    background-image: url("background/7.png");
+    background-size: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 30px;
+}
+.in-line{
+    text-align: center;
+}
+.pad{
+    padding: 0 300px 0 300px;
+}
+.width{
+   width: 400px;
+   margin: 20px;
+   border-radius: 17px;
+   padding: 20px;
+   box-shadow: 10px 10px 40px;
+}
+.width img{
+    width: 100%;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border{
+    border-radius: 17px;
+}
+.subscribe{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 225px;
+    box-shadow: 10px 10px 30px;
+    margin: 200px;
+    border-radius: 20px;
+}
+.ass-color{
+    color: gray;
+}
+.small{
+    font-size: smaller;
+    color: aliceblue;
+}
+.eat-fresh{
+    background-color: black;
+    height: 200px;
+    text-align: center;
+}
